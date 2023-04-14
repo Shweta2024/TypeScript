@@ -27,3 +27,7 @@ time, so typescrpit is smart enough to understand that its a number and we aren'
 
 ## Objects
 ![image](https://user-images.githubusercontent.com/75883328/232025803-67a1ec7b-6a56-4720-a0c2-1a234079cd54.png)
+
+## Type Alias
+
+![image](https://user-images.githubusercontent.com/75883328/232028836-ae726434-837b-4dec-b98b-42144373dec9.png)
