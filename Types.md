@@ -39,3 +39,8 @@ time, so typescrpit is smart enough to understand that its a number and we aren'
 
 ![image](https://user-images.githubusercontent.com/75883328/232030771-f3ddc5ce-216b-40a4-afff-c125cb2e3702.png)
 
+2) Combining two types to form a new type using &
+
+![image](https://user-images.githubusercontent.com/75883328/232035775-e47d7015-4c66-42e4-b5f3-d47d388b760f.png)
+
+
