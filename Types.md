@@ -33,6 +33,11 @@ time, so typescrpit is smart enough to understand that its a number and we aren'
 ![image](https://user-images.githubusercontent.com/75883328/232028836-ae726434-837b-4dec-b98b-42144373dec9.png)
 
 
+## Arrays
+
+![image](https://user-images.githubusercontent.com/75883328/232037200-645e5d76-803d-4bde-82f2-8b3d1ba10c03.png)
+
+
 ## Some Extra stuffs
 
 1) readonly & optional
