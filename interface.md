@@ -34,7 +34,7 @@ export {}
 ```
 
 
-- we can add new properties to the same interface after declaring it - it is called Reopening of the iterface.
+## we can add new properties to the same interface after declaring it - it is called Reopening of the iterface.
 
 
 ```ts
@@ -68,6 +68,45 @@ let newUser : User = {
         return 0;
     },
     gitHubAc: 'githubbbb'
+}
+
+export {}
+
+```
+
+## Alows Inheritence : one interface can inherit another
+
+```ts
+
+//INTERFACE
+interface User {
+    readonly dbId : number
+    userId: number,
+    email: string,
+    googleId? : string,
+
+    //functions
+    startTrail() : string,
+    getDiscount(coupon: number) : number
+}
+
+//INHERITENCE
+interface Admin extends User{
+    role : "head" | "business admin"
+}
+let newUser : Admin = {
+    dbId: 1,
+    userId: 20,
+    email: 'abc@gmail.com',
+    role: "head",
+
+    startTrail(){
+        return "trail started"
+    },
+
+    getDiscount(coupon : 0){
+        return 0;
+    }
 }
 
 export {}
