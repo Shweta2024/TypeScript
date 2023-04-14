@@ -80,3 +80,73 @@ let newUser = new User('shweta',20)
 
 ```
 
+## class implements interface
+
+```ts
+
+
+interface TakePhoto{
+    cameraMode : string
+    filter : string
+}
+
+interface story{
+    count : number
+}
+
+class Instagram implements TakePhoto{
+    constructor(
+                public cameraMode: string,
+                public filter: string,
+                public story : string
+                ){}
+
+    showStory(): void{
+        console.log("story displayed!")
+    }
+}
+
+class youtube implements TakePhoto, story{
+    constructor(
+        public cameraMode: string,
+        public filter: string,
+        public count: number,
+        public shorts: number
+    ){}
+
+    displayShorts(): number{
+        return this.count;
+    }
+}
+
+
+```
+
+## Abstract class
+
+- we don't implement any method inside it , we just declare the variables & the methods.
+- The classes that extends it, overwrites the abstract method.
+-  we can't create any objetcs for an abstract class.
+
+```ts
+
+
+
+abstract class TakePhoto{
+    constructor(public cameraMode: string, public filter: string){}
+
+    public abstract showPicture(): string
+}
+
+class Instagram extends TakePhoto{
+    constructor(public cameraMode: string, public filter: string){
+        super(cameraMode,filter);
+    }
+
+    public showPicture(): string {
+        return "picture shown!";
+    }
+}
+
+
+```
