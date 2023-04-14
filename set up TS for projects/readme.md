@@ -1,0 +1,3 @@
+- create a new folder & open it in VsCode.
+- Open terminal in that directory & write ``` tsc --init ``` : it will create the ```tsconfig.json``` file.
+- now run the command ```npm init ```, since working on a node project.
