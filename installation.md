@@ -1,0 +1,3 @@
+- Make sure you have node installed
+- Use the command ``` npm install -g typescript ``` to install typescript globally on your system.
+- Use ``` tsc -v ``` to check its version.
