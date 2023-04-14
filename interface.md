@@ -112,3 +112,7 @@ let newUser : Admin = {
 export {}
 
 ```
+
+## Difference between Interface & type
+- Interface can be re-opened i.e. can add new properties to it after it has been declared.
+- Type can't be re-opened.
