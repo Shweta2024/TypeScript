@@ -37,6 +37,9 @@ time, so typescrpit is smart enough to understand that its a number and we aren'
 
 ![image](https://user-images.githubusercontent.com/75883328/232037200-645e5d76-803d-4bde-82f2-8b3d1ba10c03.png)
 
+![image](https://user-images.githubusercontent.com/75883328/232037668-cd97af2b-0ecb-429a-9b4c-0a339ffb0535.png)
+
+
 
 ## Some Extra stuffs
 
