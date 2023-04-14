@@ -31,3 +31,11 @@ time, so typescrpit is smart enough to understand that its a number and we aren'
 ## Type Alias
 
 ![image](https://user-images.githubusercontent.com/75883328/232028836-ae726434-837b-4dec-b98b-42144373dec9.png)
+
+
+## Some Extra stuffs
+
+1) readonly & optional
+
+![image](https://user-images.githubusercontent.com/75883328/232030771-f3ddc5ce-216b-40a4-afff-c125cb2e3702.png)
+
