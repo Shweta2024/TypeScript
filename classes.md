@@ -42,9 +42,9 @@ let newUser = new User('shweta',20)
 
 
 ## Access Modifiers 
-- public
-- private
-- protected
+- public : can be accessed by anyone anywhere.
+- private : can be accessed only within that class.
+- protected : can be accessed within that class & by the derived classes.
 
 
 ## getters & setters
