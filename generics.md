@@ -161,6 +161,7 @@ interface bottle{
     capacity: number
 }
 
+//here the Type can be anything like it can be a book or a bottle
 class sellAble<T> {
     public cart: T[] = []
 
