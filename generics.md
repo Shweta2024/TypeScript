@@ -104,7 +104,74 @@ identity({color:'blue',model: 7})
 
 ```
 
+## Using Type parameters in Generic constraint
 
+EXAMPLE 1
+
+```ts
+
+
+//it is taking a parameter of type Type as input and the another parameter is any of the keyof Type 
+//So if our 1st parameter is an object then the 2nd parameter should be any of the key of that object
+function getKey<Type, Key extends keyof Type> (obj : Type, key: Key){
+    return obj[key]
+}
+
+let x = {'a': 1, 'b' : 2, 'c' : 3, 'd' : 4}
+getKey(x,'a')
+
+
+//it gives us squiggly lines, because the key is extending the keyof Type
+//i.e. key is extending the keyof x, and in x we don't have any key as 'j'
+getKey(x,'j')
+
+```
+
+
+EXAMPLE 2 
+
+```ts
+
+interface User{
+    name: string
+    age: number
+}
+
+function getIdentity<Type, newUser extends User>(val1: Type, val2: newUser): string {
+    return "implementing type parameters in generic constraint"
+}
+
+getIdentity(4,{name:'s', age: 1})
+
+
+```
+
+## Generic class
+
+```ts
+
+
+interface book {
+    name: string
+    author : string
+}
+
+interface bottle{
+    color: string
+    capacity: number
+}
+
+class sellAble<T> {
+    public cart: T[] = []
+
+    addToCart(product : T): void{
+        this.cart.push(product);
+        console.log("product added to cart!")
+    }
+}
+
+
+```
 
 
 
